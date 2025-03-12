@@ -1,32 +1,32 @@
 # AlzaBox API Tests (.NET + NUnit)
 
-Тестовый проект для работы с API AlzaBox (V2).
+Case Study API AlzaBox (V2).
 
-## ⚙️ Технологии:
+## ⚙️ Techstack:
 
 - .NET 8
-- NUnit (тестовый фреймворк)
-- Serilog (логирование)
-- Newtonsoft.Json (работа с JSON)
+- NUnit 
+- Serilog 
+- Newtonsoft.Json 
 
-## 🚀 Запуск проекта:
+## 🚀 Start project:
 
-### Требования:
+### Requirements:
 
 - [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)
 - [Visual Studio Code](https://code.visualstudio.com/)
 
-### Запуск тестов:
+### Tests run:
 
 cd AlzaBoxApiTests
 dotnet restore
 dotnet test
 
-### Конфигурация (`appsettings.json`):
+### Congig (`appsettings.json`):
 
-Настройки API и авторизации.
+Setting API and authorization.
 
-## 📝 Авторизация и API документация:
+## 📝 Authorization and API docs:
 
 - [Authorization](https://alzabox.atlassian.net/wiki/spaces/ABD/pages/28737824/Authorization)
 - [Environments](https://identitymanagement.phx-test.alza.cz/)
