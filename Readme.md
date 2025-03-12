@@ -18,3 +18,16 @@
 
 ### Запуск тестов:
 
+cd AlzaBoxApiTests
+dotnet restore
+dotnet test
+
+### Конфигурация (`appsettings.json`):
+
+Настройки API и авторизации.
+
+## 📝 Авторизация и API документация:
+
+- [Authorization](https://alzabox.atlassian.net/wiki/spaces/ABD/pages/28737824/Authorization)
+- [Environments](https://identitymanagement.phx-test.alza.cz/)
+- [API V2 Endpoints](https://alzabox.atlassian.net/wiki/spaces/ABD/pages/63012865/Stage+test+Specification)
