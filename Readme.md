@@ -1,19 +1,20 @@
-⚙️ Technology:
-.NET 8
-NUnit
-Serilog
-Newtonsoft.Json
-🚀 Start project:
-Requirements:
-.NET 8 SDK
-Visual Studio Code
-Start tests:
-cd AlzaBoxApiTests dotnet restore dotnet test
+# AlzaBox API Tests (.NET + NUnit)
 
-Config (appsettings.json):
-API Settings and Authorization
+Тестовый проект для работы с API AlzaBox (V2).
 
-📝 Authorization and API documentation:
-Authorization
-Environments
-API V2 Endpoints
+## ⚙️ Технологии:
+
+- .NET 8
+- NUnit (тестовый фреймворк)
+- Serilog (логирование)
+- Newtonsoft.Json (работа с JSON)
+
+## 🚀 Запуск проекта:
+
+### Требования:
+
+- [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)
+- [Visual Studio Code](https://code.visualstudio.com/)
+
+### Запуск тестов:
+
