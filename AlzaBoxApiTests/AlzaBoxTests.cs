@@ -21,7 +21,7 @@ public class AlzaBoxTests : TestBase
             id = $"RES{Guid.NewGuid()}",
             boxId = await GetRandomAvailableBoxIdAsync(),
             barcode = "1234567890123",
-            opener = "PART43"
+            opener = "PART48"
         };
         
         var result = await _apiClient.PostAsync("reservations", reservationData);
